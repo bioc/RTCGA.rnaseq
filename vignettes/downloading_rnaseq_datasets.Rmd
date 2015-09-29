@@ -1,6 +1,6 @@
 ---
 title: "Using `RTCGA` package to download rna-seq data that are included in `RTCGA.rnaseq` package"
-subtitle: "Date of datasets release: 2015-06-01"
+subtitle: "Date of datasets release: 2015-08-21"
 author: "Marcin Kosiński"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
@@ -51,7 +51,7 @@ library(RTCGA)
 checkTCGA('Dates')
 ```
 
-Version 1.0.0 of `RTCGA.rnaseq` package contains rna-seq datasets from `2015-06-01`.
+Version 1.0.0 of `RTCGA.rnaseq` package contains rna-seq datasets from `2015-08-21`.
 There were downloaded as follows:
 
 ## Available cohorts
@@ -68,7 +68,7 @@ For all cohorts the following code downloads the rna-seq data.
 ## Downloading tarred files
 ```{r, eval=FALSE}
 # dir.create( "data2" )
-releaseDate <- "2015-06-01"
+releaseDate <- "2015-08-21"
 sapply( cohorts, function(element){
 tryCatch({
 downloadTCGA( cancerTypes = element, 
@@ -136,6 +136,6 @@ sapply( cohorts, function(element){
 grep( "rnaseq", ls(), value = TRUE)[ -c(grep("path", grep( "rnaseq", ls(), value = TRUE)))] %>%
    cat( sep="," ) #can one to id better? as from use_data documentation:
    # ...	Unquoted names of existing objects to save
-   devtools::use_data(ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq, overwrite = TRUE)
+   devtools::use_data(ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq, overwrite = TRUE, compress = "xz")
 ```
 
