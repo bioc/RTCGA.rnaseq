@@ -123,7 +123,7 @@ Use cases, examples and information about datasets in \pkg{RTCGA.data} family ca
 \code{browseVignettes("RTCGA")}
 }
 \examples{
-browseVignettes("RTCGA")
+if(interactive() browseVignettes("RTCGA"))
 }
 \keyword{datasets}
 
