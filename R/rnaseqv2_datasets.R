@@ -13,11 +13,6 @@
 #' @format NULL
 #' @source \url{http://gdac.broadinstitute.org/}
 #' 
-#' @examples 
-#' 
-#' \dontrun{
-#' browseVignettes("RTCGA")
-#' }
 #' 
 #' @import RTCGA
 #' @name rnaseq

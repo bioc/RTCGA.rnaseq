@@ -122,8 +122,5 @@ Use cases, examples and information about datasets in \pkg{RTCGA.data} family ca
 
 \code{browseVignettes("RTCGA")}
 }
-\examples{
-if(interactive() browseVignettes("RTCGA"))
-}
 \keyword{datasets}
 
