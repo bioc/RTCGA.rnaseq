@@ -1,21 +1,25 @@
 Package: RTCGA.rnaseq
 Title: Rna-seq datasets from The Cancer Genome Atlas Project
-Version: 20150821.1.0
+Version: 20150821.1.1
 Date: 2015-11-16
 Author: Marcin Kosinski <m.p.kosinski@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
 Description: Package provides rna-seq datasets from The Cancer Genome
-        Atlas Project for all cohorts types from
-        http://gdac.broadinstitute.org/. Rna-seq data format is
-        explained here
-        https://wiki.nci.nih.gov/display/TCGA/RNASeq+Version+2.
-        Data source is illumina hiseq Level 3 RSEM normalized expression data.
+    Atlas Project for all cohorts types from
+    http://gdac.broadinstitute.org/. Rna-seq data format is
+    explained here
+    https://wiki.nci.nih.gov/display/TCGA/RNASeq+Version+2.
+    Data source is illumina hiseq Level 3 RSEM normalized expression data.
 License: GPL-2
 LazyData: TRUE
 Repository: Bioconductor
 BugReports: https://github.com/RTCGA/RTCGA.data/issues
-Depends: R (>= 3.2.0), RTCGA
-Suggests: knitr
+Depends:
+    R (>= 3.2.0),
+    RTCGA
+Suggests:
+    knitr
 biocViews: Annotation Data
 VignetteBuilder: knitr
 NeedsCompilation: no
+RoxygenNote: 5.0.0
