@@ -3,14 +3,16 @@
 \docType{data}
 \name{rnaseq}
 \alias{ACC.rnaseq}
-\alias{ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq}
+\alias{ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,COADREAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBMLGG.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SARC.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq}
 \alias{BLCA.rnaseq}
 \alias{BRCA.rnaseq}
 \alias{CESC.rnaseq}
 \alias{CHOL.rnaseq}
+\alias{COADREAD.rnaseq}
 \alias{COAD.rnaseq}
 \alias{DLBC.rnaseq}
 \alias{ESCA.rnaseq}
+\alias{GBMLGG.rnaseq}
 \alias{GBM.rnaseq}
 \alias{HNSC.rnaseq}
 \alias{KICH.rnaseq}
@@ -28,6 +30,7 @@
 \alias{PCPG.rnaseq}
 \alias{PRAD.rnaseq}
 \alias{READ.rnaseq}
+\alias{SARC.rnaseq}
 \alias{SKCM.rnaseq}
 \alias{STES.rnaseq}
 \alias{TGCT.rnaseq}
@@ -54,11 +57,15 @@ CHOL.rnaseq
 
 COAD.rnaseq
 
+COADREAD.rnaseq
+
 DLBC.rnaseq
 
 ESCA.rnaseq
 
 GBM.rnaseq
+
+GBMLGG.rnaseq
 
 HNSC.rnaseq
 
@@ -91,6 +98,8 @@ PCPG.rnaseq
 PRAD.rnaseq
 
 READ.rnaseq
+
+SARC.rnaseq
 
 SKCM.rnaseq
 

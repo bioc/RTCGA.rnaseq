@@ -17,7 +17,7 @@
 #' @import RTCGA
 #' @name rnaseq
 #' @rdname rnaseq
-#' @aliases ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq
+#' @aliases ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,COADREAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBMLGG.rnaseq, GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SARC.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq
 #'
 "ACC.rnaseq"
 #' @name rnaseq
@@ -49,12 +49,22 @@
 #' @rdname rnaseq
 #' @format NULL
 #' 
+"COADREAD.rnaseq"
+#' @name rnaseq
+#' @rdname rnaseq
+#' @format NULL
+#' 
 "DLBC.rnaseq"    
 #' @name rnaseq
 #' @rdname rnaseq
 #' @format NULL
 #' 
 "ESCA.rnaseq"
+#' @name rnaseq
+#' @rdname rnaseq
+#' @format NULL
+#' 
+"GBMLGG.rnaseq"
 #' @name rnaseq
 #' @rdname rnaseq
 #' @format NULL
@@ -140,6 +150,11 @@
 #' @format NULL
 #' 
 "READ.rnaseq"
+#' @name rnaseq
+#' @rdname rnaseq
+#' @format NULL
+#' 
+"SARC.rnaseq"  
 #' @name rnaseq
 #' @rdname rnaseq
 #' @format NULL
