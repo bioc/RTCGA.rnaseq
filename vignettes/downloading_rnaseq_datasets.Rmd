@@ -63,7 +63,7 @@ All cohort names can be checked using:
 
 For all cohorts the following code downloads the RNAseq data.
 
-## Downloading RPPA files
+## Downloading RNAseq files
 ```{r, eval=FALSE}
 # dir.create( "data2" ) # name of a directory in which data will be stored
 releaseDate <- "2015-08-21"
