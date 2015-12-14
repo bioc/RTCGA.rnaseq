@@ -3,7 +3,7 @@
 \docType{data}
 \name{rnaseq}
 \alias{ACC.rnaseq}
-\alias{ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,COADREAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBMLGG.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,MESO.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SARC.rnaseq,SKCM.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq}
+\alias{ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,COADREAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBMLGG.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SARC.rnaseq,SKCM.rnaseq,STAD.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq}
 \alias{BLCA.rnaseq}
 \alias{BRCA.rnaseq}
 \alias{CESC.rnaseq}
@@ -24,7 +24,6 @@
 \alias{LIHC.rnaseq}
 \alias{LUAD.rnaseq}
 \alias{LUSC.rnaseq}
-\alias{MESO.rnaseq}
 \alias{OV.rnaseq}
 \alias{PAAD.rnaseq}
 \alias{PCPG.rnaseq}
@@ -32,6 +31,7 @@
 \alias{READ.rnaseq}
 \alias{SARC.rnaseq}
 \alias{SKCM.rnaseq}
+\alias{STAD.rnaseq}
 \alias{STES.rnaseq}
 \alias{TGCT.rnaseq}
 \alias{THCA.rnaseq}
@@ -87,8 +87,6 @@ LUAD.rnaseq
 
 LUSC.rnaseq
 
-MESO.rnaseq
-
 OV.rnaseq
 
 PAAD.rnaseq
@@ -102,6 +100,8 @@ READ.rnaseq
 SARC.rnaseq
 
 SKCM.rnaseq
+
+STAD.rnaseq
 
 STES.rnaseq
 
@@ -130,4 +130,3 @@ Use cases, examples and information about datasets in \pkg{RTCGA.data} family ca
 \code{browseVignettes("RTCGA")}
 }
 \keyword{datasets}
-
