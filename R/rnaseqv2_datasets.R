@@ -3,7 +3,7 @@
 #'
 #' @description rnaseq data 
 #' format is explained here \url{https://wiki.nci.nih.gov/display/TCGA/RNASeq+Version+2}. Package provides rnaseq datasets from The Cancer Genome Atlas Project for all cohorts types from \url{http://gdac.broadinstitute.org/}.
-#' Data were downloaded using \link{RTCGA-package} and contain snapshots for the date: \code{2015-11-01}. The process is described here: \url{http://rtcga.github.io/RTCGA.data/}.
+#' Data were downloaded using \link{RTCGA-package} and contain snapshots for the date: \code{2015-11-01}. The process is described here: \url{http://rtcga.github.io/RTCGA/}.
 #' Use cases, examples and information about datasets in \pkg{RTCGA.data} family can be found here: \code{browseVignettes("RTCGA")}. Data source is illumina hiseq Level 3 RSEM normalized expression data.
 #' 
 #' @details \code{browseVignettes("RTCGA")}
