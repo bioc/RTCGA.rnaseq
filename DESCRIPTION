@@ -1,6 +1,6 @@
 Package: RTCGA.rnaseq
 Title: Rna-seq datasets from The Cancer Genome Atlas Project
-Version: 20151101.0.3
+Version: 20151101.0.4
 Date: 2016-04-26
 Author: Marcin Kosinski <m.p.kosinski@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
