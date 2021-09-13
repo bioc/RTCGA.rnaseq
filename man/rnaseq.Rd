@@ -2,14 +2,16 @@
 % Please edit documentation in R/rnaseqv2_datasets.R
 \docType{data}
 \name{rnaseq}
+\alias{rnaseq}
 \alias{ACC.rnaseq}
-\alias{ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,COADREAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBMLGG.rnaseq,GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SARC.rnaseq,SKCM.rnaseq,STAD.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq}
+\alias{ACC.rnaseq,BLCA.rnaseq,BRCA.rnaseq,CESC.rnaseq,CHOL.rnaseq,COAD.rnaseq,COADREAD.rnaseq,DLBC.rnaseq,ESCA.rnaseq,GBMLGG.rnaseq,}
+\alias{GBM.rnaseq,HNSC.rnaseq,KICH.rnaseq,KIPAN.rnaseq,KIRC.rnaseq,KIRP.rnaseq,LAML.rnaseq,LGG.rnaseq,LIHC.rnaseq,LUAD.rnaseq,LUSC.rnaseq,OV.rnaseq,PAAD.rnaseq,PCPG.rnaseq,PRAD.rnaseq,READ.rnaseq,SARC.rnaseq,SKCM.rnaseq,STAD.rnaseq,STES.rnaseq,TGCT.rnaseq,THCA.rnaseq,THYM.rnaseq,UCEC.rnaseq,UCS.rnaseq,UVM.rnaseq}
 \alias{BLCA.rnaseq}
 \alias{BRCA.rnaseq}
 \alias{CESC.rnaseq}
 \alias{CHOL.rnaseq}
-\alias{COADREAD.rnaseq}
 \alias{COAD.rnaseq}
+\alias{COADREAD.rnaseq}
 \alias{DLBC.rnaseq}
 \alias{ESCA.rnaseq}
 \alias{GBMLGG.rnaseq}
@@ -39,7 +41,6 @@
 \alias{UCEC.rnaseq}
 \alias{UCS.rnaseq}
 \alias{UVM.rnaseq}
-\alias{rnaseq}
 \title{rnaseq datasets from TCGA project}
 \source{
 \url{http://gdac.broadinstitute.org/}
@@ -63,9 +64,9 @@ DLBC.rnaseq
 
 ESCA.rnaseq
 
-GBM.rnaseq
-
 GBMLGG.rnaseq
+
+GBM.rnaseq
 
 HNSC.rnaseq
 
@@ -124,7 +125,8 @@ Data frames with rnaseq data.
 rnaseq data 
 format is explained here \url{https://wiki.nci.nih.gov/display/TCGA/RNASeq+Version+2}. Package provides rnaseq datasets from The Cancer Genome Atlas Project for all cohorts types from \url{http://gdac.broadinstitute.org/}.
 Data were downloaded using \link{RTCGA-package} and contain snapshots for the date: \code{2015-11-01}. The process is described here: \url{http://rtcga.github.io/RTCGA/}.
-Use cases, examples and information about datasets in \pkg{RTCGA} family can be found here: \code{browseVignettes("RTCGA")}. Data source is illumina hiseq Level 3 RSEM normalized expression data. Converting \pkg{RTCGA.rnaseq} datasets from \code{data.frames} to Bioconductor classes is explained here \link{convertTCGA}.
+Use cases, examples and information about datasets in \pkg{RTCGA} family can be found here: \code{browseVignettes("RTCGA")}. Data source is illumina hiseq Level 3 RSEM normalized expression data.
+Converting \pkg{RTCGA.rnaseq} to Bioconductor datasets' format is explained here \link{convertTCGA}.
 }
 \details{
 \code{browseVignettes("RTCGA")}
